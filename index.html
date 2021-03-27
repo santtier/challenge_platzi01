@@ -2,34 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/71a069b2eb.js"
+      crossorigin="anonymous"
+    ></script>
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <header class="logo">
+      <div class="logo__container">
+        <img class="logo__image" src="./images/logo.svg" alt="logo" />
+      </div>
+    </header>
+    <main class="content">
+      <figure class="content__image-container">
+        <img
+          class="content__image"
+          src="./images/illustration-mockups.svg"
+          alt="Mockups"
+        />
+      </figure>
+      <section class="content__body">
+        <h1 class="content__title">Build the community your fans will love</h1>
+        <p class="content__text">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <a class="content__button" href="#">Register</a>
+      </section>
+    </main>
+    <footer class="social-media">
+      <ul class="social-media__container">
+        <li class="social-media__items">
+          <a class="social-media__links" href="#"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li class="social-media__items">
+          <a class="social-media__links" href="#"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-media__items">
+          <a class="social-media__links" href="#"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
